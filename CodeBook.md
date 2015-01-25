@@ -18,10 +18,6 @@ In this section are described all of the transformations which are appliet to ge
 
 This function will call 5 methods.
 
-column   | description
----------|------------------------------
-activity | descriptive label of activity
-
 File			        |Step
 ------------------------|--------------------------------------------- 
 downloadData 		    |downloads the data from the web
