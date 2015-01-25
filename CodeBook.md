@@ -20,20 +20,16 @@ This function will call 5 methods.
 
 File			        |Step
 ------------------------|--------------------------------------------- 
-downloadData 		    |downloads the data from the web
-------------------------|---------------------------------------------
-getMergedData 		    |imports the data from train and test files, 
-			            |merges train and test data
-------------------------|---------------------------------------------
-getCleanedData  	    |import features data and rename variables,  
-			            |get data only for means and stds, 
-			            |get full activity names, 
- 			            |set names for activities and subjects.
- 			            |merge data into one data frame.
-------------------------|---------------------------------------------
-getComputedMeans 	    |calculate the mean for each variable
-------------------------|---------------------------------------------
-saveData 		        |export data to the file
+downloadData 		    |1. downloads the data from the web
+getMergedData 		    |2. import the data from train and test files, 
+			            |3. merge train and test data
+getCleanedData  	    |4. import features data and rename variables,  
+			            |5. get data only for means and stds, 
+			            |6. get full activity names, 
+ 			            |7. set names for activities and subjects.
+ 			            |8. merge data into one data frame.
+getComputedMeans 	    |9. calculate the mean for each variable
+saveData 		        |10. export data to the file
 
 Variables Description
 -------------------
