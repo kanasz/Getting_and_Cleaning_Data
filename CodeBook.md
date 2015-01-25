@@ -14,9 +14,15 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Data Transformation Steps
 -------------------
-In this section are described all of the transformations which are appliet to get and clean up the data. Analysis starts with running of runAnalysis function. This function will call 5 methods.
+In this section are described all of the transformations which are appliet to get and clean up the data. Analysis starts with running of `runAnalysis` function. 
 
-File			 Step
+This function will call 5 methods.
+
+column   | description
+---------|------------------------------
+activity | descriptive label of activity
+
+File			        |Step
 ------------------------|--------------------------------------------- 
 downloadData 		    |downloads the data from the web
 ------------------------|---------------------------------------------
