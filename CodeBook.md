@@ -18,7 +18,7 @@ In this section are described all of the transformations which are appliet to ge
 
 This function will call 5 methods.
 
-File			        |Step
+Method			        |Step
 ------------------------|--------------------------------------------- 
 downloadData 		    |1. downloads the data from the web
 getMergedData 		    |2. import the data from train and test files, 
@@ -34,9 +34,10 @@ saveData 		        |10. export data to the file
 Variables Description
 -------------------
 In the file `tidy_data.txt` are variables:
-1. Subject.
-2. Activity.
-3. Other variables that represent measurements from accelerometer and gyroscope.
+
+1. Subject
+2. Activity
+3. Other variables that represent measurements from accelerometer and gyroscope
 
 Data Columns
 -------------------
