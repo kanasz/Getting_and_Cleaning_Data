@@ -66,7 +66,7 @@ saveData = function(data){
 
 runAnalysis = function(){
   print("downloading data...")
-  downloadData();
+  #downloadData();
   print("merging data...")
   mergedData<-getMergedData();
   print("cleaning data...")
